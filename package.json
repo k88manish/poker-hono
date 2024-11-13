@@ -10,13 +10,21 @@
     "deploy": "$npm_execpath run build && wrangler pages deploy dist"
   },
   "dependencies": {
+    "@cfworker/uuid": "^2.1.0",
+    "@hono/react-renderer": "^0.2.1",
     "eventsource-parser": "^1.1.2",
-    "hono": "^4.5.1"
+    "hono": "^4.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
     "@hono/vite-cloudflare-pages": "^0.2.4",
     "@hono/vite-dev-server": "^0.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.19",
     "concurrently": "^8.2.2",
     "postcss": "^8.4.38",
